@@ -1,0 +1,577 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">   
+    <title>Research results</title>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- description -->
+
+	<div class="description">
+		<p>In an immigration research active between November 2015 and January 2016 the participants were asked to define pros and cons of moving to a foreign country and to  order them from the most important to the least.</p>
+
+		<p>In the graphic below you can explore the results of the poll.</p>
+
+		<p>Interested? The second edition of the research is  <a href="https://hogent.qualtrics.com/jfe/form/SV_0rha8NEpq8qvaPX" target="_blank">available now</a>.</p>
+
+		<p><strong>Credits:</strong></p>
+		<ul>
+			<li><a href="https://www.facebook.com/anna.wiazemsky?fref=ts"  target="_blank">Anyuta Wiazemsky</a> — mixed media artist</li>
+			<li><a href="#">Vladimir Ponizovskiy</a> — scientific adviser</li>
+			<li><a href="https://www.facebook.com/sasha.sergeichik" target="_blank">Sasha Sergeichik</a> — graphic designer <a href="https://github.com/aliaxandra/immigration-research" target="_blank"><img src="img/mark-github.svg"></a></li>
+		</ul>
+		<hr noshade>
+	</div>
+
+
+<!-- demographics -->
+
+	<h1 class="col-4 col-m-4">Demographics</h1>
+
+  	<div class="col-4 col-m-4 col-l-1">
+
+  		<div class="selection">			    
+			<select id="gender" class="select-style">
+				<option selected disabled hidden id="">choose</option>
+				<option id="male">Male</option>
+				<option id="female">Female</option>
+		   	</select>
+		   	<br><label>Gender</label>
+		</div>
+
+		<div class="selection">
+			    <select id="age" class="select-style">
+			    	<option id="">choose</option>
+				    <option id="18-25">18-25</option>
+				    <option id="26-34">26-34</option>
+				    <option id="35-54">35-54</option>
+		   		</select>
+		   		<br><label>Age</label>
+		</div> 
+
+		<div class="selection">
+			    <select id="marital" class="select-style">
+			    	<option id="">choose</option>
+				    <option id="single">Single</option>
+				    <option id="married">Married</option>
+				    <option id="divorced">Divorced</option>
+				    <option id="withanother">Living with another</option>
+				    <option id="separated">Separated</option>
+				    <option id="prefernottosay">I prefer not to say</option>
+		   		</select>
+			    <br><label>Current marital status</label>		   		
+		</div>
+
+	</div>
+
+	<div class="col-4 col-m-4 col-l-1">
+
+		    <div class="selection">
+			    <select id="education" class="select-style">
+			    	<option id="">choose</option>
+				    <option id="school">School</option>
+				    <option id="bachelor">Bachelor's degree</option>
+				    <option id="specialist">Specialist's degree</option>
+				    <option id="master">Master's degree</option>
+				    <option id="phd">PhD</option>
+		   		</select>
+		   		<br><label>Level of education</label>
+		    </div> 	
+
+		    <div class="selection"> 
+			    <select id="country" class="select-style">
+			    	<option id="">choose</option>
+				    <option id="russia">Russian Federation</option>
+				    <option id="ussr">USSR</option>
+				    <option id="belgium">Belgium</option>
+				    <option id="azerbaijan">Azerbaijan</option>
+				    <option id="belarus">Belarus</option>
+				    <option id="estonia">Estonia</option>
+				    <option id="ukraine">Ukraine</option>
+				    <option id="india">India</option>
+		   		</select>
+		   		<br><label>Country of birth</label>
+		    </div>
+
+		    <div class="selection"> 
+			    <select id="industry" class="select-style">
+			    	<option id="">choose</option>
+				    <option id="arts">Arts, entertainment or recreation</option>
+				    <option id="information">Information</option>
+				    <option id="managenent">Management of companies or enterprises</option>
+				    <option id="finance">Finance or insurance</option>
+				    <option id="it">IT, technology</option>
+				    <option id="healthcare">Health care or social assistance</option>
+				    <option id="education">Educational services</option>
+				    <option id="manufacturing">Manufacturing</option>
+				    <option id="construction">Construction</option>
+				    <option id="public">Public administration, public service</option>
+				    <option id="transportation">Transportation or warehousing</option>
+				    <option id="professional">Professional, scientific or technical services</option>
+				    <option id="admin">Admin, support, waste management or remediation services</option>				    
+				    <option id="unclassified">Unclassified establishments</option>
+				    <option id="otherindustry">Other</option>			
+		   		</select>
+		   		<br><label>Industry</label>
+		    </div>
+		
+	</div>
+
+	 <div class="col-4 col-m-4 col-l-1">
+	
+		<div class="selection"> 
+			    <select id="income" class="select-style">
+			    	<option id="">choose</option>
+				    <option id="under10000">under $10,000</option>
+				    <option id="12000">$10,000-15,999</option>
+				    <option id="16000">$16,000-19,999</option>
+				    <option id="20000">$20,000-29,999</option>
+				    <option id="30000">$30,000-39,999</option>
+				    <option id="50000">$50,000-59,999</option>
+				    <option id="60000">$60,000-69,999</option>
+				    <option id="70000">$70,000-79,999</option>
+				    <option id="80000">$80,000 - 89,999</option>
+				    <option id="90000">$90,000 - 99,999</option>
+				    <option id="120000">$120,000 - 139,999</option>
+		   		</select>
+		   		<br><label>Income</label>
+		</div>
+
+		<div class="selection"> 
+			    <select id="leftHome" class="select-style">
+			    	<option id="">choose</option>
+				    <option id="yes">Yes</option>
+				    <option id="no">No</option>
+				    <option id="wantto">I want to / In the process</option>
+				    <option id="returned">I returned</option>
+				    <option id="other">Other</option>
+		   		</select>
+		   		<br><label>Left home country</label>
+		 </div>		
+
+	</div>
+
+	<div class="col-4">
+		<button onclick="drawCircle()">Show me results</button>
+		<button onclick="clean()">Clean</button>	
+		<hr noshade>
+	</div>
+	
+<!-- causes -->	
+<!-- blue leave -->	
+	<div class="row">
+
+		<div class="col-4 col-m-4">
+				<h1>Reasons</h1>
+				<h2>to leave home country</h2>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+
+			<div>
+				<p>Safety and security</p>
+			    <div id="blue-safety" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>War; conflict or violence; crime ratess</p>
+			    <div id="blue-war" class="leave circle"></div>
+			</div>
+			<div>
+			   <p>Moral issues</p>
+			   <div id="blue-moral" class="leave circle"></div>
+			</div>		
+			<div>
+			    <p>Health care, social security</p>
+			    <div id="blue-health" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Family reunion and other family situations (for instance when parents move together with their children)</p>
+			    <div id="blue-family" class="leave circle"></div>
+			</div>				
+			<div>
+			    <p>Work or business opportunities</p>
+			    <div id="blue-work" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Studies or the quality of education in general</p>
+			    <div id="blue-studies" class="leave circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+			<div>
+			    <p>Care for the children</p>
+			    <div id="blue-children" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Love</p>
+			    <div id="blue-love" class="leave circle"></div>
+			</div>						
+			<div>
+			    <p>Reversibility of the decision</p>
+			    <div id="blue-reversibility" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Escape from the environment</p>
+			    <div id="blue-escape" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Wish to change the environment</p>
+			    <div id="blue-change" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Confidence in the future</p>
+			    <div id="blue-confidence" class="leave circle"></div>
+			</div>				
+			<div>
+			    <p>Tolerance for other cultures</p>
+			    <div id="blue-tolerance" class="leave circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+			<div>
+			    <p>Unwillingness to think about politics</p>
+			    <div id="blue-unwillingness" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Corruption level</p>
+			    <div id="blue-corruption" class="leave circle"></div>
+			</div>		
+			<div>
+			    <p>Freedom of travel</p>
+			    <div id="blue-freedom" class="leave circle"></div>
+			</div>	
+			<div>
+			    <p>Technological development</p>
+			    <div id="blue-technological" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Ecology, climate and nature</p>
+			    <div id="blue-ecology" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Quality of life</p>
+			    <div id="blue-quality" class="leave circle"></div>
+			</div>
+		</div>
+
+	</div>
+
+<!-- blue stay -->
+	<div class="row">
+
+		<div class="col-4 col-m-4">
+				<h2>to stay in home country or to return to it</h2>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+
+			<div>
+			    <p>Moral obligation(s)</p>
+			    <div id="blue-moralobligation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Social obligation(s)</p>
+			    <div id="blue-socialobligation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Uncertainty</p>
+			    <div id="blue-uncertainty" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Doubts</p>
+			    <div id="blue-doubts" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Unwillingness to live in a ghetto</p>
+			    <div id="blue-ghetto" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Non-existence of an ideal country</p>
+			<div id="blue-noneideal" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Age</p>
+			    <div id="blue-agecause" class="stay circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">		
+			<div>
+			    <p>Losing contact with friends</p>
+			    <div id="blue-losingfriends" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Losing contact with family</p>
+			    <div id="blue-losingfamily" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Isolation</p>
+			    <div id="blue-isolation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Separation from culture</p>
+			    <div id="blue-separation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Not enough perspectives in the other countries</p>
+			    <div id="blue-perspectives" class="stay circle"></div>
+			</div>					
+			<div>
+			    <p>Difficulties with obtaning a legal status</p>
+			    <div id="blue-legal" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Assimilation and adaptation difficulties</p>
+			    <div id="blue-assimilation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Language</p>
+			    <div id="blue-language" class="stay circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+			<div>
+			    <p>Culture differences</p>
+			    <div id="blue-culturedifferences" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Difficulties in obtaining a visa</p>
+			    <div id="blue-visa" class="stay circle"></div>
+			</div>		
+			<div>
+			    <p>Financial reasons</p>
+			    <div id="blue-financial" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Divorce or other personal issues</p>
+			    <div id="blue-personal" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Family members who cannot move to a foreign country (or live there)</p>
+			    <div id="blue-familymembers" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>There is no opportunity to move (or to stay in the new country)</p>
+			    <div id="blue-noopportunity" class="stay circle"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row">
+
+<!-- green leave -->
+
+		<h2 class="col-4 col-m-4">to leave home country</h2>
+
+		<div class="col-4 col-m-4 col-l-1">
+
+			<div>
+			    <p>Safety and security</p>
+			    <div id="green-safety" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>War; conflict or violence; crime ratess</p>
+			    <div id="green-war" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Moral issues</p>
+			    <div id="green-moral" class="leave circle"></div>
+			</div>		
+			<div>
+			    <p>Health care, social security</p>
+			    <div id="green-health" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Family reunion and other family situations (for instance when parents move together with their children)</p>
+			    <div id="green-family" class="leave circle"></div>
+			</div>				
+			<div>
+			    <p>Work or business opportunities</p>
+			    <div id="green-work" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Studies or the quality of education in general</p>
+			    <div id="green-studies" class="leave circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+			<div>
+			    <p>Care for the children</p>
+			    <div id="green-children" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Love</p>
+			    <div id="green-love" class="leave circle"></div>
+			</div>						
+			<div>
+			    <p>Reversibility of the decision</p>
+			    <div id="green-reversibility" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Escape from the environment</p>
+			    <div id="green-escape" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Wish to change the environment</p>
+			    <div id="green-change" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Confidence in the future</p>
+			    <div id="green-confidence" class="leave circle"></div>
+			</div>				
+			<div>
+			    <p>Tolerance for other cultures</p>
+			    <div id="green-tolerance" class="leave circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+			<div>
+			    <p>Unwillingness to think about politics</p>
+			    <div id="green-unwillingness" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Corruption level</p>
+			    <div id="green-corruption" class="leave circle"></div>
+			</div>		
+			<div>
+			    <p>Freedom of travel</p>
+			    <div id="green-freedom" class="leave circle"></div>
+			</div>	
+			<div>
+			    <p>Technological development</p>
+			    <div id="green-technological" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Ecology, climate and nature</p>
+			    <div id="green-ecology" class="leave circle"></div>
+			</div>
+			<div>
+			    <p>Quality of life</p>
+			    <div id="green-quality" class="leave circle"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row">
+
+<!-- green stay -->
+
+		<h2 class="col-4 col-m-4">to stay in home country or to return to it</h2>
+
+		<div class="col-4 col-m-4 col-l-1">
+
+			<div>
+			    <p>Moral obligation(s)</p>
+			    <div id="green-moralobligation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Social obligation(s)</p>
+			    <div id="green-socialobligation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Uncertainty</p>
+			    <div id="green-uncertainty" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Doubts</p>
+			    <div id="green-doubts" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Unwillingness to live in a ghetto</p>
+			    <div id="green-ghetto" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Non-existence of an ideal country</p>
+			<div id="green-noneideal" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Age</p>
+			    <div id="green-agecause" class="stay circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">		
+			<div>
+			    <p>Losing contact with friends</p>
+			    <div id="green-losingfriends" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Losing contact with family</p>
+			    <div id="green-losingfamily" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Isolation</p>
+			    <div id="green-isolation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Separation from culture</p>
+			    <div id="green-separation" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Not enough perspectives in the other countries</p>
+			    <div id="green-perspectives" class="stay circle"></div>
+			</div>					
+			<div>
+			    <p>Difficulties with obtaning a legal status</p>
+			    <div id="green-legal" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Assimilation and adaptation difficulties</p>
+			    <div id="green-assimilation" class="stay circle"></div>
+			</div>
+		</div>
+
+		<div class="col-4 col-m-4 col-l-1">
+			<div>
+			    <p>Language</p>
+			    <div id="green-language" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Culture differences</p>
+			    <div id="green-culturedifferences" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Difficulties in obtaining a visa</p>
+			    <div id="green-visa" class="stay circle"></div>
+			</div>		
+			<div>
+			    <p>Financial reasons</p>
+			    <div id="green-financial" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Divorce or other personal issues</p>
+			    <div id="green-personal" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>Family members who cannot move to a foreign country (or live there)</p>
+			    <div id="green-familymembers" class="stay circle"></div>
+			</div>
+			<div>
+			    <p>There is no opportunity to move (or to stay in the new country)</p>
+			    <div id="green-noopportunity" class="stay circle"></div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+	<script src="javascript.js"></script> 
+
+</body>
+</html>
