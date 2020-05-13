@@ -2,7 +2,7 @@
 
 In an immigration research active between November 2015 and January 2016 the participants were asked to define pros and cons of moving to a foreign country and to  order them from the most important to the least.
 
-##Credits:
+## Credits:
 
 - Anyuta Wiazemsky — mixed media artist 
 - Vladimir Ponizovskiy — scientific adviser 
